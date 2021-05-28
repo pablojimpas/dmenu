@@ -4,17 +4,17 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"monospace:size=16",
-	"JoyPixels:pixelsize=16:antialias=true:autohint=true"
+	"monospace:size=12",
+	"JoyPixels:pixelsize=12:antialias=true:autohint=true"
 };
 static const unsigned int bgalpha = 0xe0;
 static const unsigned int fgalpha = OPAQUE;
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#ebdbb2", "#1d2021" },
-	[SchemeSel] = { "#fbf1c7", "#458588" },
-	[SchemeOut] = { "#1d2021", "#458588" },
+	[SchemeNorm] = { "#d8dee9", "#3b4252" },
+	[SchemeSel] = { "#eceff4", "#5e81ac" },
+	[SchemeOut] = { "#2e3440", "#88c0d0" },
 };
 static const unsigned int alphas[SchemeLast][2] = {
 	/*		fgalpha		bgalphga	*/
