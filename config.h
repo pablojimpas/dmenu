@@ -7,14 +7,14 @@ static const char *fonts[] = {
 	"monospace:size=12",
 	"NotoColorEmoji:pixelsize=10:antialias=true:autohint=true"
 };
-static const unsigned int bgalpha = 0xef;
+static const unsigned int bgalpha = 0xe0;
 static const unsigned int fgalpha = OPAQUE;
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#e5e9f0", "#2e3440" },
-	[SchemeSel] = { "#eceff4", "#5e81ac" },
-	[SchemeOut] = { "#2e3440", "#5e81ac" },
+	[SchemeNorm] = { "#ebdbb2", "#1d2021" },
+	[SchemeSel] = { "#fbf1c7", "#458588" },
+	[SchemeOut] = { "#1d2021", "#458588" },
 };
 static const unsigned int alphas[SchemeLast][2] = {
 	/*		fgalpha		bgalphga	*/
